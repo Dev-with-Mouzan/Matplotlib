@@ -49,34 +49,34 @@ This repository is a practical, notebook-driven guide to **data visualization wi
 
 ```
 Matplotlib/
-├── Data/
+├── 00-Data/
 │   └── Data.csv                    # World Happiness Report dataset
-├── Bar_plot/
-│   ├── Bar_plot.ipynb              # bar chart example
-│   └── usages.ipynb                # when to use bar charts
-├── Box_plot/
+├── 01-Box_plot/
 │   ├── Box_plot.ipynb              # box plot example
 │   └── usages.ipynb
-├── Fill_Between_plot/
+├── 02-Fill_Between_plot/
 │   ├── Fill_Between_plot.ipynb     # fill_between example
 │   └── usages.ipynb
-├── Histogram/
+├── 03-Bar_plot/
+│   ├── Bar_plot.ipynb              # bar chart example
+│   └── usages.ipynb                # when to use bar charts
+├── 04-Histogram/
 │   ├── Histogram.ipynb             # histogram example
 │   └── usages.ipynb
-├── pie_plot/
+├── 05-pie_plot/
 │   ├── pie_plot.ipynb              # pie chart example
 │   └── usages.ipynb
-├── Save_figure/
+├── 06-Save_figure/
 |   ├── HistoGram_plot.png          # sample output image
 │   ├── Save_figure.ipynb           # exporting figures
 │   └── usages.ipynb
-├── Scatter_plot/
+├── 07-Scatter_plot/
 │   ├── Scatter_plot.ipynb          # scatter plot example
 │   └── usages.ipynb
-├── stem_plot/
+├── 08-stem_plot/
 │   ├── stem_plot.ipynb             # stem plot example
 │   └── usages.ipynb
-├── Step_plot/
+├── 09-Step_plot/
 │   ├── Step_plot.ipynb             # step plot example
 │   └── usages.ipynb
 ├── assets/
@@ -91,15 +91,15 @@ Matplotlib/
 
 | Folder | Plot | Typical use |
 | --- | --- | --- |
-| `Bar_plot/` | Bar charts | Comparing categorical data (e.g., sales by product). |
-| `Box_plot/` | Box plots | Statistical summaries and detecting outliers. |
-| `Fill_Between_plot/` | `fill_between` | Highlighting regions like confidence intervals. |
-| `Histogram/` | Histograms | Understanding the frequency distribution of a dataset. |
-| `pie_plot/` | Pie charts | Showing proportional parts of a whole (use with caution). |
-| `Save_figure/` | Saving figures | Exporting high-quality plots for reports. |
-| `Scatter_plot/` | Scatter plots | Relationships or correlations between two numerical variables. |
-| `stem_plot/` | Stem plots | Visualizing discrete data points (signal processing). |
-| `Step_plot/` | Step plots | Time-series data where changes occur at discrete intervals. |
+| `01-Box_plot/` | Box plots | Statistical summaries and detecting outliers. |
+| `02-Fill_Between_plot/` | `fill_between` | Highlighting regions like confidence intervals. |
+| `03-Bar_plot/` | Bar charts | Comparing categorical data (e.g., sales by product). |
+| `04-Histogram/` | Histograms | Understanding the frequency distribution of a dataset. |
+| `05-pie_plot/` | Pie charts | Showing proportional parts of a whole (use with caution). |
+| `06-Save_figure/` | Saving figures | Exporting high-quality plots for reports. |
+| `07-Scatter_plot/` | Scatter plots | Relationships or correlations between two numerical variables. |
+| `08-stem_plot/` | Stem plots | Visualizing discrete data points (signal processing). |
+| `09-Step_plot/` | Step plots | Time-series data where changes occur at discrete intervals. |
 
 ## Prerequisites & Installation
 
@@ -122,16 +122,26 @@ pip install pandas matplotlib
 
 ## Usage
 
-1. Clone or download the repository.
-2. Navigate to the project folder.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Dev-with-Mouzan/Matplotlib.git
+   ```
+
+2. Enter the project folder:
+
+   ```bash
+   cd Matplotlib
+   ```
+
 3. Launch Jupyter Notebook:
 
    ```bash
    jupyter notebook
    ```
 
-4. Open any plot folder (e.g., `Bar_plot/`) and run its notebook. Each folder's `usages.ipynb` explains when that plot type is best applied.
+4. Open any plot folder (e.g., `03-Bar_plot/`) and run its notebook. Each folder's `usages.ipynb` explains when that plot type is best applied.
 
 ## Contributing
 
-Contributions are welcome. Feel free to open an [issue](https://github.com/) or submit a pull request — adding a new plot type folder or improving an existing notebook is a great way to contribute.
+Contributions are welcome. Feel free to open an [issue](https://github.com/Dev-with-Mouzan) or submit a pull request — adding a new plot type folder or improving an existing notebook is a great way to contribute.
